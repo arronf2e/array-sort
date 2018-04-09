@@ -7,3 +7,7 @@
 - 选择排序 
 
 [https://github.com/arronf2e/array-sort/blob/master/selection.js](https://github.com/arronf2e/array-sort/blob/master/selection.js)
+
+- 插入排序 
+
+[https://github.com/arronf2e/array-sort/blob/master/insert.js](https://github.com/arronf2e/array-sort/blob/master/insert.js)
