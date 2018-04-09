@@ -23,6 +23,10 @@ function findMaxPos(arr) {
  function selectionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         var pos = findMaxPos(arr.slice(0, arr.length - i));
+        // 如果当前最大数在末尾，不必交换
+        if(pos == arr.length - i - 1) {
+            continue;
+        }
         var temp = arr[pos];
         arr[pos] = arr[arr.length - i - 1];
         arr[arr.length - i - 1] = temp;
